@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+pydantic-settings = "*"
+stable-baselines3 = "==2.0.0a5"
+huggingface-sb3 = "*"
+black = "*"
+flake8 = "*"
+pylint = "*"
+bandit = "*"
+install = "*"
+pipfile = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
